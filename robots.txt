@@ -1,0 +1,10 @@
+User-agent: *
+Sitemap: https://www.andrehofmeister.com/sitemap.xml
+Disallow: /favicons/
+Disallow: /*.ico
+Disallow: /*.jpg
+Disallow: /*.png
+Disallow: /*.svg
+Disallow: /*.woff
+Disallow: /*.woff2
+Disallow: /error.html
