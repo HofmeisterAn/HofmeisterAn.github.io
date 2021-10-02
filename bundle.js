@@ -30797,6 +30797,16 @@ var Categories_Categories_Categories = /*#__PURE__*/function (_React$Component) 
             }, item);
           }
 
+          if (item.startsWith("dsgvo:")) {
+            item = item.replace("dsgvo:", "");
+            return /*#__PURE__*/react_default.a.createElement("li", {
+              key: index
+            }, /*#__PURE__*/react_default.a.createElement("a", {
+              className: "underline-link",
+              href: "LEGAL.md"
+            }, item));
+          }
+
           return /*#__PURE__*/react_default.a.createElement("li", {
             key: index
           }, item);
@@ -31625,7 +31635,7 @@ var store_profile = {
         notes: [],
         categories: [{
           label: "Andre Hofmeister",
-          items: ["Germany", "mail-to:IAm@AndreHofmeister.com", "pgp-key:rsa4096-4871E294", "pgp-fingerprint:C407 1F06 88E7 4318 DA0D\n924C C264 2214 4871 E294"]
+          items: ["Sebastian-Merkle-Straße 32", "73479 Ellwangen (Jagst)", "+49 (0) 160 1631949", "mail-to:IAm@AndreHofmeister.com", "pgp-key:rsa4096-4871E294", "pgp-fingerprint:C407 1F06 88E7 4318 DA0D\n924C C264 2214 4871 E294", "dsgvo:Datenschutzerklärung"]
         }],
         tags: []
       }]
